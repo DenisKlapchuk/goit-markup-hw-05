@@ -639,9 +639,13 @@ img {
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1);
     background: #E7E9FC;
+    
 }
 .is-hidden {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
+}
+.close {
+    rgba(46, 47, 66, 1);
 }
