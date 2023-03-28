@@ -92,7 +92,6 @@ img {
     color: #2E2F42;
     padding-top: 24px;
     position: relative;
-    transition: color var(--transition-duration);
 }
 
 .line::after {
@@ -104,7 +103,6 @@ img {
     bottom: -27px;
     background-color:#404bbf;;
     border-radius: 2px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-list {
@@ -113,10 +111,11 @@ img {
 }
 
 .header-list :focus {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: #404bbf;
-    
 }
 .header-list :hover {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: #404bbf
 }   
 
@@ -127,21 +126,21 @@ img {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #434455;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-list {
     gap: 40px;
-    transition: color var(--transition-duration);
-
 }
+
 .address {
     margin-left: auto;
 }
 
 .address-link:focus {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: #404bbf;
 }
 .address-link:hover {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: #404bbf
 }
 
@@ -194,17 +193,19 @@ img {
     width: 169px;
     height: 56px;
     border-radius: 4px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
 }
 
 .primary-button:focus {
     color: var(--secondary-color);
     background-color: #404BBF;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 .primary-button:hover {
     color: var(--secondary-color);
     background-color: #404BBF;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 /**--section-features--*/
@@ -329,15 +330,18 @@ img {
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 .team-soc-link:hover {
     color: var(--secondary-color);
     background-color: #404BBF;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .team-soc-link:focus {
     color: var(--secondary-color);
     background-color: #404BBF;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .our-team-item-title {
@@ -403,7 +407,6 @@ img {
     min-height: 88px;
     border: 1px solid #8E8F99;
     border-radius: 4px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-link:hover .customers-icon {
@@ -411,6 +414,7 @@ img {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers-link:hover{
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border: 1px solid #404BBF;
 }
 
@@ -493,7 +497,6 @@ img {
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-soc-link:hover {
     color: var(--secondary-color);
@@ -524,7 +527,6 @@ img {
     padding: 12px 24px;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-container {
     padding-bottom: 72px;
@@ -544,12 +546,14 @@ img {
     background-color: #404BBF;
     border-color: #404BBF;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-button:focus {
     color: var(--background-color);
     background-color: #404BBF;
     border-color: #404BBF;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-our-team{
@@ -585,9 +589,9 @@ img {
     padding-left: 32px;
     padding-right: 32px;
     transform: translateY(100%);
-    transition: transform 250ms  cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .portfolio-our-team:hover {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
@@ -598,7 +602,6 @@ img {
     border-bottom: 1px solid #E7E9FC;
     border-left: 1px solid #E7E9FC;
     border-right: 1px solid #E7E9FC;
-    transition: color var(--transition-duration);
 } 
 
 .item-title {
@@ -662,4 +665,5 @@ img {
 .close {
     color: rgba(46, 47, 66, 1);
     cursor: pointer;
+    transition: transform 250ms  cubic-bezier(0.4, 0, 0.2, 1);
 }
