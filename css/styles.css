@@ -653,6 +653,6 @@ img {
     pointer-events: none;
 }
 .close {
-    rgba(46, 47, 66, 1);
+    color: rgba(46, 47, 66, 1);
     cursor: pointer;
 }
